@@ -57,9 +57,9 @@ def send_mail(to, sender_name, subject, message):
         status_text += f"[cyan]Server Reply:[/cyan] [white]{resp.text}[/white]\n"  
 
         if resp.status_code == 200:  
-            status_text += "\n[bold green]EMAIL SENT SUCCESSFULLY ✅[/bold green]"  
+            status_text += "\n[bold green]EMAIL SPOOF SUCCESSFULLY ✅[/bold green]"  
         else:  
-            status_text += "\n[bold red]FAILED TO SEND EMAIL 📨 [/bold red]"  
+            status_text += "\n[bold red]FAILED TO SPOOF EMAIL 📨 [/bold red]"  
 
         console.print(Panel.fit(status_text, title="STATUS PANEL", 
                                 border_style="green" if resp.status_code == 200 else "red"))  
