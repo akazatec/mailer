@@ -1,6 +1,7 @@
 #Use for educational purposes 
    #~Akaza
-
+import os
+os.system('clear')
 import requests
 import sys
 import time
