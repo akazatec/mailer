@@ -36,3 +36,10 @@ git clone https://github.com/akazatec/mailer
 cd mailer
 bash setup.sh
 
+### 🐧 Linux
+
+sudo apt update && sudo apt upgrade
+sudo apt install python3 python3-pip git
+git clone https://github.com/akazatec/mailer
+cd mailer
+bash setup.sh
